@@ -1,0 +1,141 @@
+@media screen and (max-width: 5000px) {
+  header {
+    height: 120px;
+    background-color: #6d31d0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 110px;
+  }
+
+  .header-logo {
+    width: 120px;
+    height: 80px;
+  }
+
+  .header-nav {
+    width: 718px;
+    height: 40px;
+    margin-left: 41px;
+  }
+  .header-nav__list {
+    line-height: 140%;
+    list-style: none;
+    display: flex;
+    color: white;
+  }
+
+  .header-nav__item {
+    font-family: "Avenir Next";
+    font-weight: 500;
+    height: 40px;
+    padding: 9px 14px;
+    cursor: pointer;
+  }
+
+  .header-nav__item:nth-child(3)::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../assets/svg/header/services_vector.svg);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 6px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+  }
+
+  .header-btn {
+    width: 180px;
+    height: 48px;
+  }
+  .header-burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  header {
+    padding-left: 110px;
+    padding-right: 110px;
+    justify-content: normal;
+  }
+
+  .header-logo {
+    width: 120px;
+    height: 80px;
+  }
+
+  .header-nav {
+    display: none;
+    width: 190px;
+  }
+  .header-nav__list {
+    position: absolute;
+    width: 190px;
+    height: 260px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #434364;
+    font-family: "Avenir Next";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    justify-content: center;
+    margin-left: 640px;
+    margin-top: 47px;
+  }
+
+  .header-btn {
+    margin-left: 380px;
+    margin-right: 60px;
+  }
+  .header-burger {
+    display: block;
+    width: 40px;
+    height: 30px;
+    background: none;
+    border: none;
+    background-image: url(../assets/svg/header/burger.svg);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  header {
+    padding-left: 94px;
+    padding-right: 94px;
+  }
+  .header-logo {
+    width: 100px;
+  }
+  .header-btn {
+    margin-left: 200px;
+  }
+  .header-nav {
+    width: 200px;
+    height: 260px;
+  }
+  .header-nav__list {
+    margin-left: 425px;
+    margin-top: 170px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .header-btn {
+    display: none;
+  }
+  .header-burger {
+    margin-left: 240px;
+  }
+  .header-nav__list {
+    margin-left: 185px;
+  }
+}

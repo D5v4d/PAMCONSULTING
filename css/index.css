@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+.btn {
+  font-family: "Montserrat";
+  font-weight: 600;
+  background-color: #ffdb80;
+  border: none;
+  border-radius: 25px;
+  color: #6d31d0;
+  font-size: 20px;
+  cursor: pointer;
+}
+.h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+}
+.h2 {
+  font-family: "Avenir Next";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+}
+.h3 {
+  font-family: "Avenir Next";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+}
+.h4 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+.h5 {
+  font-family: "Avenir Next";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.h6 {
+  font-family: "Avenir Next";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: auto;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 5000px) {
+  body {
+    width: 1440px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  body {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  body {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 480px;
+  }
+
+  .main-relocating {
+    order: -1;
+  }
+
+  .main-services {
+    order: -2;
+  }
+}
